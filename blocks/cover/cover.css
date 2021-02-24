@@ -16,7 +16,7 @@ position: relative;
 }
 .cover:before {
 content: "";
-background: #2A2C2F;;
+background: #2A2C2F;
 opacity: 0.3;
 position: absolute;
 top: 0;
@@ -31,7 +31,7 @@ transition: 0.3s;
 opacity: 0.8;
 }
 
-@media screen and (max-widht:767px) {
+@media screen and (max-width:767px) {
 .cover {
 margin-top: 64px;
 padding-top: 33px;
@@ -41,7 +41,7 @@ padding-left: 16px;
 }
 }
 
-@media screen and (max-widht:1023px) {
+@media screen and (max-width:1023px) {
 .cover {
 margin-top: 90px;
 padding-top: 115px;
@@ -51,7 +51,7 @@ padding-left: 104px;
 }
 }
 
-@media screen and (max-widht:1279px) {
+@media screen and (max-width:1279px) {
 .cover {
 width: 100%;
 padding-top: 195px;

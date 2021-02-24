@@ -4,7 +4,7 @@ padding: 0;
 margin-right: 18px;
 width: 30px;
 height: 28px;
-color: #FFFFFF;
+color: #FFF;
 top: 46px;
 font-style: normal;
 font-weight: normal;
@@ -12,10 +12,9 @@ font-size: 24px;
 line-height: 28px;
 text-align: right;
 text-decoration-line: underline;
-color: #FFFFFF;
 }
 
-  @media screen and (max-widht:767px) {
+  @media screen and (max-width:767px) {
 .header__lang-link_ru {
 width: 22px;
 height: 20px;
