@@ -1,4 +1,4 @@
-.header__lang-link_ru {
+.header__ink_ru {
 margin: 0;
 padding: 0;
 margin-right: 18px;
@@ -14,7 +14,7 @@ text-align: right;
 text-decoration-line: underline;
 }
 
-.header__lang-link_ru {
+.header__link_ru:hover {
 opacity: 0.4;
 -webkit-transition: opacity .3s ease-in;
 -moz-transition: opacity .3s ease-in;
@@ -24,7 +24,7 @@ transition: opacity .3s ease-in;
 }  
 
 @media screen and (max-width:767px) {
-.header__lang-link_ru {
+.header__link_ru {
 width: 22px;
 height: 20px;
 font-size: 18px;

@@ -11,7 +11,7 @@ text-decoration-line: underline;
 color:  #FFF;
 }
 
-.place__link {
+.place__link:hover {
 opacity: 0.4;
 -webkit-transition: opacity .3s ease-in;
 -moz-transition: opacity .3s ease-in;

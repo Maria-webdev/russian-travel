@@ -1,4 +1,4 @@
-.header__lang-link_en {
+.header__link_en {
 margin: 0;
 padding: 0;
 width: 29px;
@@ -13,7 +13,7 @@ line-height: 28px;
 text-align: right;
 }
 
-.header__lang-link_en {
+.header__link_en:hover {
 opacity: 0.4;
 -webkit-transition: opacity .3s ease-in;
 -moz-transition: opacity .3s ease-in;
@@ -23,7 +23,7 @@ transition: opacity .3s ease-in;
 }  
 
 @media screen and (max-width:767px) {
-.header__lang-link_en {
+.header__link_en {
 width: 22px;
 height: 20px;
 font-size: 18px;
