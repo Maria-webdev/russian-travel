@@ -14,7 +14,16 @@ text-align: right;
 text-decoration-line: underline;
 }
 
-  @media screen and (max-width:767px) {
+.header__lang-link_ru {
+opacity: 0.4;
+-webkit-transition: opacity .3s ease-in;
+-moz-transition: opacity .3s ease-in;
+-ms-transition: opacity .3s ease-in;
+-o-transition: opacity .3s ease-in;
+transition: opacity .3s ease-in;
+}  
+
+@media screen and (max-width:767px) {
 .header__lang-link_ru {
 width: 22px;
 height: 20px;

@@ -10,3 +10,12 @@ line-height: 22px;
 text-decoration-line: underline;
 color:  #FFF;
 }
+
+.place__link {
+opacity: 0.4;
+-webkit-transition: opacity .3s ease-in;
+-moz-transition: opacity .3s ease-in;
+-ms-transition: opacity .3s ease-in;
+-o-transition: opacity .3s ease-in;
+transition: opacity .3s ease-in;
+}  
