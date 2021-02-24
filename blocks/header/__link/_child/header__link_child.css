@@ -17,7 +17,7 @@ text-decoration-line: underline;
 .header__link_child:last-of-type {
 margin: 0;
 width: 29px;
-text-decoration-line: underline;
+text-decoration-line: none;
 }
 
 .header__link_child:hover {
