@@ -1,0 +1,12 @@
+.place__description {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+@media screen and (max-widht:767px) {
+.place__description {
+margin: 0 auto;
+width: calc(100% - 2*16px);
+}
+}
