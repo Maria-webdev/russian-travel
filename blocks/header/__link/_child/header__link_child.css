@@ -15,9 +15,7 @@ text-decoration-line: underline;
 }
 
 .header__link_child:last-of-type {
-margin: 0;
-width: 29px;
-text-decoration-line: none;
+text-decoration-line: none;  
 }
 
 .header__link_child:hover {
@@ -29,7 +27,7 @@ opacity: 0.4;
 transition: opacity .3s ease-in;
 }  
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
 .header__link_child {
 width: 22px;
 height: 20px;

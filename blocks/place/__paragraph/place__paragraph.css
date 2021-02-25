@@ -2,24 +2,19 @@
 margin: 0;
 padding: 0;
 width: 100%;
-margin-bottom: 26px;
+margin-bottom: 27px;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 163%;
+text-align: left;
 }
 
 .place__paragraph:last-of-type {
 margin-bottom: 0;
 }
 
-@media screen and (max-width:767px) {
-.place__paragraph {
-width: calc(100% - 16px*2);
-}
-}
-
-@media screen and (max-width:1023px) {
+@media screen and (max-width: 1023px) {
 .place__paragraph {
 margin-bottom: 25px;
 font-size: 16px;

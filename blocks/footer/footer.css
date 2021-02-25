@@ -4,20 +4,15 @@ padding: 0;
 margin-top: 92px;
 margin-bottom: 24px;
 display: flex;
+max-width: 1184px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
 .footer {
 margin-top: 64px;
 margin-left: 16px;
 margin-bottom: 24px;
-flex-direction: row;
-width: calc(100% - 16px - 118px);
-}
-}
-
-@media screen and (max-width:1279px) {
-.footer {
-margin-top: 88px;
+flex-direction: column;
+max-width: 186px;
 }
 }
