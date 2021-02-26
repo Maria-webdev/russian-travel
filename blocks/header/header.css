@@ -8,12 +8,9 @@ max-width: 1184px;
 max-height: 52px;
 }
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
 .header {
-margin-top: 16px;
-max-width: 288px;
-max-height: 42px;
+max-width: 928px;
 }
 }
 
@@ -24,9 +21,10 @@ max-width: 720px;
 }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
 .header {
-max-width: 928px;
+margin-top: 16px;
+max-width: 288px;
+max-height: 42px;
 }
 }
-

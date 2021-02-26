@@ -6,10 +6,11 @@ width: calc(100% - 148px*2);
 max-width: 984px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
 .places {
-margin-top: 64px;
-width: 100%;
+width: calc(100% - 48px*2);
+margin-top: 92px;
+max-width: 928px;
 }
 }
 
@@ -20,11 +21,11 @@ width: calc(100% - 24px*2);
 max-width: 720px;
 }
 }
-
-@media screen and (max-width: 1279px) {
+    
+@media screen and (max-width: 767px) {
 .places {
-width: calc(100% - 48px*2);
-margin-top: 92px;
-max-width: 928px;
+margin: 0;
+margin-top: 64px;
+width: 100%;
 }
 }

@@ -18,3 +18,9 @@ opacity: 0.4;
 -o-transition: opacity .3s ease-in;
 transition: opacity .3s ease-in;
 }  
+
+@media screen and (max-width: 767px) {
+ .place__link {
+width: calc(100% - 16px*2);
+}
+}

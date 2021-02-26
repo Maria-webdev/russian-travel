@@ -10,16 +10,16 @@ text-align: center;
 z-index: 3;
 }
 
+.cover__title-link {
+text-decoration: none;
+color: #FFF;
+z-index: 3;
+}
+
 @media screen and (max-width: 767px) {
 .cover__title  {
 font-size: 32px;
 line-height: 35px;
 max-width: 248px;
 }
-}
-
-.cover__title-link {
-text-decoration: none;
-color: #FFF;
-z-index: 3;
 }
