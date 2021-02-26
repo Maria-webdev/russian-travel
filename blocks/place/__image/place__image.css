@@ -3,6 +3,7 @@ margin: 0 auto;
 padding: 0;
 width: 100%;
 max-width: 460px;
+object-fit: fill;
 }
     
 @media screen and (max-width: 1279px) {
@@ -20,6 +21,7 @@ max-width: 340px;
 @media screen and (max-width: 767px) {
 .place__image {
 margin: 0;
-width: 100%;
+max-width: 100%;
+min-width: 320px;
 }
 }
