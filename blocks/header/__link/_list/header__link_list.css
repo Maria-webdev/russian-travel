@@ -1,9 +1,6 @@
-
 .header__link_list {
-margin-right: 18px;
-text-decoration-line: underline;
+    margin: 0;
+    margin-right: 18px;
+    padding: 0;
 }
     
-.header__link_list:last-child {
-text-decoration-line: none; 
-}
