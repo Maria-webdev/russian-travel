@@ -5,12 +5,3 @@ margin-top: auto;
 display: flex;
 list-style-type: none;
 }
-
-.header__link_list {
-margin-right: 18px;
-text-decoration-line: underline;
-}
-
-.header__link_list:last-child {
-text-decoration-line: none; 
-}
